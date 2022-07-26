@@ -31,5 +31,6 @@ Installation
 ------------
 
 .. code-block:: bash
-    pip install nornir_pygnm
+
+  pip install nornir_pygnm
 
