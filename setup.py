@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-with open('README.md', encoding="utf-8") as fh:
+with open('README.rst', encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
@@ -10,7 +10,7 @@ setup(
   license='bsd-3-clause',
   description='pyGNMI plugin for Nornir.',
   long_description=long_description,
-  long_description_content_type='text/markdown',
+  long_description_content_type='text/x-rst',
   author='Anton Karneliuk',
   author_email='anton@karneliuk.com',
   url='https://github.com/akarneliuk/nornir_pygnmi',
