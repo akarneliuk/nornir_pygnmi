@@ -34,3 +34,17 @@ Installation
 
   pip install nornir_pygnm
 
+=======
+Dev Log
+=======
+
+Release **0.1.1**:
+
+- Added ``gnmi_set()`` task.
+- Added placeholders for not-implemented methods.
+
+Release **0.1.0**:
+
+- First alpha release.
+
+(c)2022, karneliuk.com

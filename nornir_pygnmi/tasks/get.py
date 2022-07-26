@@ -4,7 +4,7 @@ from nornir.core.task import Task, Result
 
 
 # Functions
-def gnmi_get(task: Task, prefix: str = "", path: list = [],
+def gnmi_get(task: Task, prefix: str = "", path: list = None,
              target: str = None, datatype: str = 'all',
              encoding: str = 'json') -> Result:
     """This task is based on Get() GNMI RPC.
