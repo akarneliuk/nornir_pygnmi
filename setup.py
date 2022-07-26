@@ -13,9 +13,9 @@ setup(
   long_description_content_type='text/markdown',
   author='Anton Karneliuk',
   author_email='anton@karneliuk.com',
-  url='https://github.com/akarneliuk/pygnmi',
-  download_url='https://github.com/akarneliuk/pygnmi/archive/v0.1.0.tar.gz',
-  keywords=['gnmi', 'automation', 'grpc', 'network'],
+  url='https://github.com/akarneliuk/nornir_pygnmi',
+  download_url='https://github.com/akarneliuk/nornir_pygnmi/archive/v0.1.0.tar.gz',
+  keywords=['gnmi', 'automation', 'grpc', 'network', 'pygnmi'],
   install_requires=[
           'nornir',
           'pygnmi'],
