@@ -38,6 +38,11 @@ Installation
 Dev Log
 =======
 
+Release **0.1.2**:
+
+- Added `examples <https://github.com/akarneliuk/nornir_pygnmi/tree/main/examples>`_.
+- Modified communication of the task's status for all tasks.
+
 Release **0.1.1**:
 
 - Added ``gnmi_set()`` task.

@@ -6,7 +6,7 @@ with open('README.rst', encoding="utf-8") as fh:
 setup(
   name='nornir_pygnmi',
   packages=['nornir_pygnmi', 'nornir_pygnmi.tasks'],
-  version='0.1.1',
+  version='0.1.2',
   license='bsd-3-clause',
   description='pyGNMI plugin for Nornir.',
   long_description=long_description,
@@ -14,13 +14,13 @@ setup(
   author='Anton Karneliuk',
   author_email='anton@karneliuk.com',
   url='https://github.com/akarneliuk/nornir_pygnmi',
-  download_url='https://github.com/akarneliuk/nornir_pygnmi/archive/v0.1.1.tar.gz',
+  download_url='https://github.com/akarneliuk/nornir_pygnmi/archive/v0.1.2.tar.gz',
   keywords=['gnmi', 'automation', 'grpc', 'network', 'pygnmi'],
   install_requires=[
           'nornir',
           'pygnmi'],
   classifiers=[
-    'Development Status :: 3 - Alpha',
+    'Development Status :: 4 - Beta',
     'Intended Audience :: Developers',
     'Intended Audience :: System Administrators',
     'Intended Audience :: Telecommunications Industry',

@@ -20,4 +20,4 @@ def gnmi_set(task: Task, delete: list = None, replace: list = None,
                            prefix=prefix,
                            target=target)
 
-    return Result(host=task.host, result=result)
+    return Result(host=task.host, result=result, changed=True)

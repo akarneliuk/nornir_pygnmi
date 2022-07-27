@@ -13,4 +13,4 @@ def gnmi_capabilities(task: Task) -> Result:
     gnmi_conn = task.host.get_connection(connection="pygnmi", configuration=task.nornir.config)
     result = gnmi_conn.capabilities()
 
-    return Result(host=task.host, result=result)
+    return Result(host=task.host, result=result, changed=False)

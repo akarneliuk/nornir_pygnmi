@@ -19,4 +19,4 @@ def gnmi_get(task: Task, prefix: str = "", path: list = None,
                            datatype=datatype,
                            encoding=encoding)
 
-    return Result(host=task.host, result=result)
+    return Result(host=task.host, result=result, changed=False)
