@@ -6,3 +6,5 @@ nornir_pygnmi/connection.py
 nornir_pygnmi/tasks/__init__.py
 nornir_pygnmi/tasks/capabilities.py
 nornir_pygnmi/tasks/get.py
+nornir_pygnmi/tasks/set.py
+nornir_pygnmi/tasks/subscribe.py
