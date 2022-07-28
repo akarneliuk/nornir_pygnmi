@@ -1,0 +1,12 @@
+---
+dev-pygnmi-nxos1:
+  hostname: 192.168.101.20
+  port: 50051
+  username: username
+  password: password
+  connection_options:
+    pygnmi:
+      extras:
+        path_cert: "./certs/dev-pygnmi-nxos1.pem"
+        skip_verify: True
+...

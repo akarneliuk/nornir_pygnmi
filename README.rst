@@ -1,6 +1,9 @@
 ========================
 pyGNMI plugin for Nornir
 ========================
+
+|project|_ |version|_ |coverage|_ |tag|_ |license|_
+
 This repository contains GNMI plugin for Nornir leveraging pyGNMI library
 
 =====
@@ -53,3 +56,14 @@ Release **0.1.0**:
 - First alpha release.
 
 (c)2022, karneliuk.com
+
+.. |version| image:: https://img.shields.io/static/v1?label=latest&message=v0.1.2&color=success
+.. _version: https://pypi.org/project/nornir_pygnmi/
+.. |tag| image:: https://img.shields.io/static/v1?label=status&message=stable&color=success
+.. _tag: https://pypi.org/project/nornir_pygnmi/
+.. |license| image:: https://img.shields.io/static/v1?label=license&message=BSD-3-clause&color=success
+.. _license: https://github.com/akarneliuk/nornir_pygnmi/blob/master/LICENSE.txt
+.. |project| image:: https://img.shields.io/badge/akarneliuk%2Fnornir_pygnmi-blueviolet.svg?logo=github&color=success
+.. _project: https://github.com/akarneliuk/nornir_pygnmi/
+.. |coverage| image:: https://img.shields.io/static/v1?label=coverage&message=0%&color=red
+.. _coverage: https://github.com/nedbat/coveragepy

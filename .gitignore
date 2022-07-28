@@ -1,8 +1,6 @@
 venv/
-hosts.yaml
 __pycache__/
 .env
-*.pem
 *.crt
 nornir.log
 dist/

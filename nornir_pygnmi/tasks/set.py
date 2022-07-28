@@ -13,11 +13,15 @@ def gnmi_set(task: Task, delete: list = None, replace: list = None,
     Check https://github.com/akarneliuk/pygnmi for further details"""
 
     gnmi_conn = task.host.get_connection(connection="pygnmi", configuration=task.nornir.config)
-    result = gnmi_conn.get(delete=delete,
+    gnmi_conn.capabilities()
+
+    result = gnmi_conn.set(delete=delete,
                            replace=replace,
                            update=update,
                            encoding=encoding,
                            prefix=prefix,
                            target=target)
 
-    return Result(host=task.host, result=result, changed=True)
+    is_changed = True if result else False
+
+    return Result(host=task.host, result=result, changed=is_changed)

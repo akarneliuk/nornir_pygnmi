@@ -11,4 +11,3 @@ def gnmi_subscribe(task: Task) -> Result:
     Check https://github.com/akarneliuk/pygnmi for further details"""
 
     raise NotImplementedError
-    gnmi_conn = task.host.get_connection(connection="pygnmi", configuration=task.nornir.config)

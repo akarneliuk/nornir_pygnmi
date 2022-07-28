@@ -62,7 +62,6 @@ dev-pygnmi-nxos1:
       extras:
         path_cert: "./certs/dev-pygnmi-nxos1.pem"
         skip_verify: True
-  data:
 ...
 ```
 

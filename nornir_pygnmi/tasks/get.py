@@ -13,6 +13,8 @@ def gnmi_get(task: Task, prefix: str = "", path: list = None,
     Check https://github.com/akarneliuk/pygnmi for further details"""
 
     gnmi_conn = task.host.get_connection(connection="pygnmi", configuration=task.nornir.config)
+    gnmi_conn.capabilities()
+
     result = gnmi_conn.get(prefix=prefix,
                            path=path,
                            target=target,
