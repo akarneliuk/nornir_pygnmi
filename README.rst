@@ -41,6 +41,10 @@ Installation
 Dev Log
 =======
 
+Release **0.2.0**:
+
+- Added new ``gnmi_subscribe()`` task. It supports all telemery subscription modes; however, from the Nornir perspective, the most benefitial is the ``once`` mode. In this case, the task will return a list containing output of all requested data. Such an approach is recommended by some vendors (e.g., Nokia) to collect huge data sets, which are not fitting into a single ``Get()`` RPC implemented in ``nornir_pygnmi`` as ``gnmi_get()`` task.
+
 Release **0.1.2**:
 
 - Added `examples <https://github.com/akarneliuk/nornir_pygnmi/tree/main/examples>`_.
@@ -57,7 +61,7 @@ Release **0.1.0**:
 
 (c)2022, karneliuk.com
 
-.. |version| image:: https://img.shields.io/static/v1?label=latest&message=v0.1.2&color=success
+.. |version| image:: https://img.shields.io/static/v1?label=latest&message=v0.2.0&color=success
 .. _version: https://pypi.org/project/nornir_pygnmi/
 .. |tag| image:: https://img.shields.io/static/v1?label=status&message=stable&color=success
 .. _tag: https://pypi.org/project/nornir_pygnmi/
