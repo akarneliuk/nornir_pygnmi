@@ -41,6 +41,10 @@ Installation
 Dev Log
 =======
 
+Release **0.2.1**:
+
+- Amended documentation to show possibility to use ``port`` key in the ``connection_options/pygnmi`` context.
+
 Release **0.2.0**:
 
 - Added new ``gnmi_subscribe()`` task. It supports all telemery subscription modes; however, from the Nornir perspective, the most benefitial is the ``once`` mode. In this case, the task will return a list containing output of all requested data. Such an approach is recommended by some vendors (e.g., Nokia) to collect huge data sets, which are not fitting into a single ``Get()`` RPC implemented in ``nornir_pygnmi`` as ``gnmi_get()`` task.

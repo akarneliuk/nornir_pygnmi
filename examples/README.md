@@ -65,6 +65,20 @@ dev-pygnmi-nxos1:
 ...
 ```
 
+**Update**: You can specify port solely in `connection_options/pygnmi` to make sure that port affets only GNMI connection:
+```yaml
+---
+dev-pygnmi-nxos1:
+  hostname: 192.168.101.20
+  connection_options:
+    pygnmi:
+      port: 50051
+      extras:
+        path_cert: "./certs/dev-pygnmi-nxos1.pem"
+        skip_verify: True
+...
+```
+
 ### Pygnmi arguments
 If you need, specify `extras` context and add there all key-value pairs you would normally provide to `gNMIclient()` class of `pygnmi` library. [See pygnmi documentation for further reference](https://github.com/akarneliuk/pygnmi).
 

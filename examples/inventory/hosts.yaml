@@ -1,11 +1,13 @@
+# You can speify port both within the device context and in
+# connectivity_options 
 ---
 dev-pygnmi-nxos1:
   hostname: 192.168.101.20
-  port: 50051
   username: username
   password: password
   connection_options:
     pygnmi:
+      port: 50051
       extras:
         path_cert: "./certs/dev-pygnmi-nxos1.pem"
         skip_verify: True
